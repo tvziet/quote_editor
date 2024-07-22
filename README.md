@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+CRUD quotes with Turbo.
 
-Things you may want to cover:
+## Info
+- Use `SASS` as a CSS pre-processor
+- Use `esbuild` to speed up the compilation of Javasctipt
+- Use `PostgreSQL` for saving database
 
-* Ruby version
+### How to install the dependencies, create database, run migration, seed the sample data
 
-* System dependencies
+```bash
+bin/setup
+```
 
-* Configuration
+### How to run the Rails server, and the scripts that precompile the CSS and the Javascript code
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+bin/dev
+```
